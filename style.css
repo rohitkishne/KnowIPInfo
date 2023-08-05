@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.post-office-intro{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.post-office-intro .left{
+    width: 40%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 3em 0em;
+
+}
+
+.post-office-intro .left .title{
+    color:#575A85;
+    width: 90%;
+    font-size: 2.25em;
+    font-weight: 700;
+
+}
+
+.post-office-intro .left .desc{
+    color:white;
+    width: 90%;
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 1.816em;
+}
+
+.post-office-intro .left .postman{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.post-office-intro .left .postman > img{
+    width: 60%;
+    
+}
+
+
+
+.post-office-intro .right{
+    width: 60%;
+    background-color: #575A85;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.post-office-intro .right .ip-address{
+    font-size: 2.25em;
+    font-weight: 700;
+    color: #ffffff61;
+}
+
+.right .ip-address .ip{
+    color: white;
+}
+
+.right .get-started{
+    padding: 0.5em;
+    width: 40%;
+    border: 2px solid #B8BCCC;
+    outline: none;
+    background-color: #575a85;
+    cursor: pointer;
+    border-radius: 0.3em;
+    font-size: 1.75em;
+    color: #ffffff87;
+}

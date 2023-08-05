@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP-Address Information</title>
+    <link rel="stylesheet" href="ipAddressStyle.css">
+</head>
+<body>
+
+    <div class="ip-address">
+        IP Address : <span id="ip" class="ip">127.0.01</span>
+    </div>
+    <section id="basic-info" class="basic-info">
+        <div class="lat">Lat:</div>
+        <div class="city">City:</div>
+        <div class="organisation">Organisation:</div>
+        <div class="long">Long:</div>
+        <div class="region">Region:</div>
+        <div class="hostname">Hostname:</div>
+    </section>
+
+    <section id="google-location" class="google-location">
+        
+    </section>
+
+    <section class="more-information">
+        <div class="more-info-title">More Information About You</div>
+        <div id="more-info" class="more-info">
+            <span>Time Zone:</span>
+            <span>Date And Time:</span>
+            <span>Pincode:</span>
+            <span>Message: Number of pincode(s) found: </span>
+        </div>
+    </section>
+
+    <section class="post-office-near-me">
+        <div class="post-office-title">Post Offices Near You</div>
+        <div class="search-box">
+            <img src="../assets/search.png" alt="search icon">
+            <input type="text" name="searchPostOffice" id="search-post-office" class="search-post-office" placeholder="Search By Name & Branch Office">
+        </div>
+        <div id="post-offices" class="post-offices">
+            <div class="post-office-card">
+                <span>Name</span>
+                <span>Branch Type</span>
+                <span>Delivery Status</span>
+                <span>District</span>
+                <span>Division</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="./ipAddressScript.js"></script>
+</body>
+</html>

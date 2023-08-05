@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    background-color: black;
+    color: white;
+}
+
+.ip-address{
+    width: 100%;
+    padding: 0.8em;
+    font-size: 2.25em;
+    font-weight: 700;
+    color: #808080de;
+}
+
+.ip-address .ip{
+    color: #ffffffb0;
+}
+
+.basic-info{
+    width: 100%;
+    padding: 1em;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 20% 25% 50%;
+    color: #808080de;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 41.15px;
+}
+
+.google-location{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 3em;
+    background-color: #575A85;
+}
+
+.google-location .current-location{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #B8BCCC;
+}
+
+.more-information, .post-office-near-me{
+    width: 100%;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.more-information .more-info-title, .post-office-near-me .post-office-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #B8BCCC;
+}
+
+.more-information .more-info{
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: #B8BCCC;
+}
+
+.post-office-near-me .search-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 0em 1em;
+    border: 2px solid #575A85;
+    border-radius: 7px;
+}
+
+.search-box > img{
+    width: 1.5%;
+}
+
+.search-box .search-post-office{
+    padding: 0.7em 0em;
+    width: 98%;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: #B8BCCC;
+    font-size: 1.2em;
+}
+
+.search-post-office::placeholder{
+    font-size: 1.2em;
+}
+
+.post-offices{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.post-offices .post-office-card{
+    width: 100%;
+    height: 60vh;
+    background-color: #575A85;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 1.7em;
+    font-weight: 700;
+    line-height: 41px;
+    padding: 1em;
+    color: #B8BCCC;
+
+}
